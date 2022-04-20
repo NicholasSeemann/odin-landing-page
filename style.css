@@ -2,12 +2,30 @@
 body {
     display: flex;
     flex-direction: column;
-    margin-left: 128px;
-    margin-right: 128px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 /* Header Rules */
 .header {
+    background-color: #1F2937;
+    color: white;
+    padding: 16px 128px 0px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: bolder;
+}
+
+.headerLinks {
+    display: flex;
+    gap: 24px;
 }
