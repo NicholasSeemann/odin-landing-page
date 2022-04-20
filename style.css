@@ -11,12 +11,14 @@ a {
     color: white;
 }
 
-/* Header Rules */
-.header {
+.header, .hero {
     background-color: #1F2937;
     color: white;
-    padding: 16px 128px 0px;
+    padding: 16px 256px 0px;
     display: flex;
+}
+/* Header Rules */
+.header {
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -26,6 +28,25 @@ a {
 }
 
 .headerLinks {
-    display: flex;
     gap: 24px;
 }
+
+/* Hero Text Section Rules */
+.heroImage {
+    height: 300px;
+    width: auto;
+    display: flex;
+    flex-shrink: 1;
+}
+
+.hero {
+    justify-content: space-between;
+}
+
+.rightPortion {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
