@@ -1,0 +1,13 @@
+/* General Rules */
+body {
+    display: flex;
+    flex-direction: column;
+    margin-left: 128px;
+    margin-right: 128px;
+}
+
+/* Header Rules */
+.header {
+    display: flex;
+    flex-wrap: wrap;
+}
