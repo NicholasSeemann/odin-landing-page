@@ -63,3 +63,41 @@ a {
     height: 32px;
     width: 128px;
 }
+
+/*Information Section Rules*/
+.secondBodySection {
+    padding: 24px 256px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sBSHeader {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 36px;
+}
+
+.sBSContent {
+    display: flex;
+    flex-direction: row;
+}
+
+.entry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+}
+
+.entry img {
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
