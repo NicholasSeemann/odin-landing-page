@@ -66,7 +66,7 @@ a {
 
 /*Information Section Rules*/
 .secondBodySection {
-    padding: 24px 256px;
+    padding: 64px 256px 128px;
     display: flex;
     flex-direction: column;
 
