@@ -158,3 +158,12 @@ a {
     width: 128px;
     align-self: center;
 }
+
+/* Copyright Rules */
+.copyright {
+    background-color: #1F2937;
+    color: white;
+    padding: 64px 256px;
+    display: flex;
+    justify-content: center;
+}
