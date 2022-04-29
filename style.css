@@ -101,3 +101,20 @@ a {
     height: 150px;
     width: 150px;
 }
+
+/* Quote Rules */
+.quoteSection {
+    background-color: #E5E7EB;
+    padding: 256px 372px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.attribution {
+    align-self: flex-end;
+}
