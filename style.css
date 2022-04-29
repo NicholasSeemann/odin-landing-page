@@ -64,7 +64,7 @@ a {
     width: 128px;
 }
 
-/*Information Section Rules*/
+/* Information Section Rules */
 .secondBodySection {
     padding: 64px 256px 128px;
     display: flex;
@@ -117,4 +117,44 @@ a {
 
 .attribution {
     align-self: flex-end;
+}
+
+/* Call to Action Rules */
+.signupSection {
+    padding: 128px 256px;
+    display: flex;
+    justify-content: center;
+}
+
+.signup {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 16px 128px;
+    display: flex;
+    gap: 128px;
+}
+
+.callTo {
+    display: flex;
+    flex-direction: column;
+}
+
+.callTo h3 {
+    margin: 2px;
+}
+
+.callTo p {
+    margin: 2px;
+}
+
+.signup button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 3px solid;
+    border-color: #F9FAF8;
+    border-radius: 10px;
+    height: 32px;
+    width: 128px;
+    align-self: center;
 }
