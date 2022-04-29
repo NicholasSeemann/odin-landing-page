@@ -105,7 +105,7 @@ a {
 /* Quote Rules */
 .quoteSection {
     background-color: #E5E7EB;
-    padding: 256px 372px;
+    padding: 128px 372px;
     display: flex;
     flex-direction: column;
 }
